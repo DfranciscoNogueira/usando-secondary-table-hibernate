@@ -1,0 +1,31 @@
+CREATE SCHEMA `teste_estudo` ;
+
+
+CREATE TABLE `teste_estudo`.`tabela1` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `teste_estudo`.`tabela2` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `sobrenome` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+
+
+INSERT INTO `teste_estudo`.`tabela1` (`id`, `nome`) VALUES ('1', 'Maria');
+
+INSERT INTO `teste_estudo`.`tabela1` (`id`, `nome`) VALUES ('2', 'Diego');
+
+INSERT INTO `teste_estudo`.`tabela1` (`id`, `nome`) VALUES ('3', 'Ester');
+
+INSERT INTO `teste_estudo`.`tabela1` (`id`, `nome`) VALUES ('4', 'Miguel');
+
+INSERT INTO `teste_estudo`.`tabela2` (`id`, `sobrenome`) VALUES ('1', 'francisco');
+
+INSERT INTO `teste_estudo`.`tabela2` (`id`, `sobrenome`) VALUES ('2', 'livramento');
+
+INSERT INTO `teste_estudo`.`tabela2` (`id`, `sobrenome`) VALUES ('3', 'souza');
+
+INSERT INTO `teste_estudo`.`tabela2` (`id`, `sobrenome`) VALUES ('4', 'viana');
