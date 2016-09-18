@@ -1,0 +1,1 @@
+# usando-secondary-table-hibernate
